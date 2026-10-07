@@ -1,0 +1,20 @@
+export const images = {
+  campusAerial: "/manus-storage/campus-aerial_55e38455.webp",
+  campusMain: "/manus-storage/campus-main-hq_6713e640.webp",
+  campusCollege: "/manus-storage/campus-college_0351288e.webp",
+  hostel: "/manus-storage/hostel-building_5e03be02.webp",
+  cafeteria: "/manus-storage/cafeteria_3ff0f7b1.webp",
+  sports: "/manus-storage/sports_1b2db725.webp",
+  fitness: "/manus-storage/fitness_a33c59c7.webp",
+  library: "/manus-storage/library_3d62de50.webp",
+  industry: "/manus-storage/industry_758a9c8c.webp",
+  arts: "/manus-storage/arts-sports_d55d04f5.webp",
+  community: "/manus-storage/social_936718c7.webp",
+  events: "/manus-storage/curricular_74f77a4e.webp",
+  cse: "/manus-storage/computer-science_7d8bd766.webp",
+  electrical: "/manus-storage/electrical_3b6d0e3d.webp",
+  ideaLab: "/manus-storage/idea-lab_ec1f7b10.webp",
+  futureSkills: "/manus-storage/future-skills_102f7006.webp",
+  engineeringEvent: "/manus-storage/engineering-event_b21f3128.webp",
+  logo: "/manus-storage/fisat-logo_3c98a2b3.webp"
+} as const;
