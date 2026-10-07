@@ -40,7 +40,7 @@ export function PageHero({
       <div className="page-hero__shade" aria-hidden="true" />
       <div className="page-hero__inner">
         {crumbs.length > 0 && <Breadcrumbs items={crumbs} />}
-        <p className="eyebrow eyebrow--gold"><span />{eyebrow}</p>
+        <p className="eyebrow eyebrow--blue"><span />{eyebrow}</p>
         <h1>{title}</h1>
         {description && <p className="page-hero__description">{description}</p>}
       </div>
@@ -122,8 +122,8 @@ export function CTA({ title, copy, primary = { label: "Apply now", href: "/admis
 }) {
   return (
     <section className="cta-panel">
-      <div className="cta-panel__copy"><p className="eyebrow eyebrow--gold"><span />Your next chapter</p><h2>{title}</h2><p>{copy}</p></div>
-      <div className="cta-panel__actions"><Link className="button button--gold" href={primary.href}>{primary.label}<ArrowRight size={16} /></Link><Link className="button button--outline-light" href={secondary.href}>{secondary.label}<ArrowRight size={16} /></Link></div>
+      <div className="cta-panel__copy"><p className="eyebrow eyebrow--blue"><span />Your next chapter</p><h2>{title}</h2><p>{copy}</p></div>
+      <div className="cta-panel__actions"><Link className="button button--blue" href={primary.href}>{primary.label}<ArrowRight size={16} /></Link><Link className="button button--outline-light" href={secondary.href}>{secondary.label}<ArrowRight size={16} /></Link></div>
     </section>
   );
 }

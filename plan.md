@@ -17,17 +17,17 @@ Build a genuinely multi-page, static-content institutional website for Federal I
 
 - **Design Movement:** premium academic editorial / contemporary Kerala institutional design, with cinematic photography and restrained digital craft.
 - **Core Principles:** institutional confidence; human-scale storytelling; clear, useful wayfinding; credible detail over decoration.
-- **Color Philosophy:** deep navy `#08233F` and dark navy `#041525` signal trust and technical ambition; white and light gray `#F4F6F8` create space and readability; charcoal `#17212B` supports body copy; warm gold `#E7B64A` is a sparing signature accent for calls to action, active states and highlights.
+- **Color Philosophy:** follow the user's updated palette: black `#000000`, white `#FFFFFF` and signature blue `#2C3480`. Use black for confident editorial grounding, white for clarity and breathing room, and the single indigo-blue accent for calls to action, active states and wayfinding; supporting grays and pale blue tints are limited to readable surfaces, dividers and text. Remove the earlier gold accent and unrelated chromatic colors.
 - **Layout Paradigm:** editorial, image-led, asymmetric sections and bento arrangements; use wide margins and variable composition rather than a uniform centered template.
-- **Signature Elements:** FISAT’s authentic official wordmark in the navbar (never redraw or misrepresent it); fine gold editorial rules with numbered chapter markers; a mapped campus-explorer interaction with quiet navy/gold location pins.
+- **Signature Elements:** FISAT’s authentic official wordmark in the navbar (never redraw or misrepresent it); fine blue editorial rules with numbered chapter markers; a photo-led campus-explorer interaction with blue location pins on dark imagery.
 - **Interaction Philosophy:** the interaction should aid discovery and navigation, not compete with academic content; preserve keyboard access and touch-sized targets.
-- **Animation:** Motion-based entrance, image scale/reveal, number count-up, menu and page transitions; 300–500 ms maximum, restrained, and disabled/reduced under `prefers-reduced-motion`; no WebGL or autoplay video.
+- **Animation:** Motion-based hero image expansion and layered copy entrance, animated count-up, a quiet blue reading-progress line, staggered card/timeline arrivals, hover/focus feedback, active campus-marker pulse, menu, tab and page transitions. Keep interface transitions within 300–500 ms; the route shell, selected facility panel and campus-location details must be visible in initial static HTML before hydration and remain readable if JavaScript is unavailable. Play route-entry and selection transitions only after hydration or user input, preserve keyboard/touch access, honor `prefers-reduced-motion`, and use no WebGL, autoplay video or perpetual ambient movement.
 - **21st.dev Pattern References:** adapt, rather than copy, the [Scroll Reveal Image](https://21st.dev/@unlumen/components/scroll-reveal-image) image-width/scale treatment for the FISAT hero, the [Bento Grid](https://21st.dev/@designali-in/components/bento-grid) asymmetric visual hierarchy for campus content, and [Transition Panel](https://21st.dev/@ibelick/components/transition-panel/with-tabs) for short, reduced-motion-aware section changes. Build the experiences as semantic project components using authentic FISAT images; do not reuse the references’ stock visuals or default styling.
 - **Typography System:** Instrument Serif for editorial display headings, paired with a neutral Inter sans-serif body; large high-contrast headlines, readable line lengths and a clear responsive hierarchy.
 - **Brand Essence:** engineering education at the intersection of academic craft and a connected campus community; personality: **ambitious, grounded, human**.
 - **Brand Voice:** concise, confident, invitational; example headlines: “Build what comes next.” and “More than a campus. A place to become.”
 - **Wordmark & Logo:** use the official FISAT logo/wordmark from the institution for recognizable and accurate identity; supporting geometric forms may echo engineering and campus architecture without impersonating an official seal.
-- **Signature Brand Color:** Deep FISAT Navy `#08233F`.
+- **Signature Brand Color:** FISAT Blue `#2C3480`.
 
 ## Page and content system
 

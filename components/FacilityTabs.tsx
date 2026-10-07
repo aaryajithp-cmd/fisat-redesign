@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import { ArrowUpRight } from "lucide-react";
 import { handleTabListKeyDown } from "@/components/keyboardTabs";
@@ -9,8 +9,10 @@ export type FacilityTab = { label: string; heading: string; copy: string; source
 
 export function FacilityTabs({ tabs }: { tabs: FacilityTab[] }) {
   const [active, setActive] = useState(0);
+  const [hydrated, setHydrated] = useState(false);
   const reduceMotion = useReducedMotion();
   const current = tabs[active];
+  useEffect(() => setHydrated(true), []);
 
   return <div className="facility-tabset">
     <div className="facility-tabs" role="tablist" aria-label="Facility details" onKeyDown={handleTabListKeyDown}>
@@ -33,7 +35,7 @@ export function FacilityTabs({ tabs }: { tabs: FacilityTab[] }) {
       role="tabpanel"
       tabIndex={0}
       aria-labelledby={`facility-tab-${active}`}
-      initial={{ opacity: 0, y: reduceMotion ? 0 : 8 }}
+      initial={hydrated && !reduceMotion ? { opacity: 0, y: 8 } : false}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: reduceMotion ? 0 : 0.2 }}
     >

@@ -17,7 +17,7 @@ export function HomeHero() {
   return <motion.section ref={ref} className="home-hero">
     <motion.img className="home-hero__image" src={images.campusMain} alt="The main academic block at FISAT in Angamaly, Kerala" fetchPriority="high" style={{ scale }}/>
     <div className="home-hero__overlay" aria-hidden="true" />
-    <motion.div className="home-hero__inner" style={{ y: copyY, opacity: copyOpacity }}><span className="home-hero__stamp">Engineering education · Angamaly, Kerala</span><h1>BUILD WHAT<br/><em>COMES NEXT.</em></h1><p className="home-hero__copy">Engineering education for curious minds and ambitious futures.</p><div className="home-hero__actions"><Link className="button button--gold" href="/academics">Explore Programmes<ArrowRight size={16}/></Link><Link className="button button--outline-light" href="/about">Discover FISAT<ArrowUpRight size={15}/></Link></div></motion.div>
+    <motion.div className="home-hero__inner" style={{ y: copyY, opacity: copyOpacity }}><span className="home-hero__stamp">Engineering education · Angamaly, Kerala</span><h1>BUILD WHAT<br/><em>COMES NEXT.</em></h1><p className="home-hero__copy">Engineering education for curious minds and ambitious futures.</p><div className="home-hero__actions"><Link className="button button--blue" href="/academics">Explore Programmes<ArrowRight size={16}/></Link><Link className="button button--outline-light" href="/about">Discover FISAT<ArrowUpRight size={15}/></Link></div></motion.div>
     <div className="home-hero__foot"><span>Federal Institute of Science and Technology</span><span className="home-hero__scroll">Scroll to explore</span></div>
   </motion.section>;
 }
