@@ -1,6 +1,6 @@
 export const images = {
   campusAerial: "/manus-storage/campus-aerial.jpg",
-  campusMain: "/manus-storage/campus-main-hq.png",
+  campusMain: "/manus-storage/campus-aerial.jpg",
   campusCollege: "/manus-storage/campus-college.jpg",
   hostel: "/manus-storage/hostel-building.jpg",
   cafeteria: "/manus-storage/cafeteria.jpg",

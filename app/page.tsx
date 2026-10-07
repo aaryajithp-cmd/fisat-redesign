@@ -38,7 +38,7 @@ export default function HomePage() {
 
     <section className="section section--spacious">
       <div className="container home-intro">
-        <div className="home-intro__image"><img src={images.campusAerial} alt="Aerial photograph of the FISAT campus surrounded by green spaces" loading="lazy"/><span className="home-intro__caption">Hormis Nagar · Angamaly</span></div>
+        <div className="home-intro__image"><img src={images.campusAerial} alt="Main academic building at FISAT in Angamaly, Kerala" loading="lazy"/><span className="home-intro__caption">Hormis Nagar · Angamaly</span></div>
         <div className="home-intro__copy"><p className="eyebrow"><span/>A place to become</p><h2>MORE THAN A CAMPUS.<br/><em>A PLACE TO BECOME.</em></h2><p>At FISAT, an engineering education opens into a bigger landscape: a close-knit campus, a culture of making, and the confidence to take your learning further.</p><Link className="text-link" href="/about">Discover the FISAT story<ArrowRight size={15}/></Link><div className="home-intro__meta"><span>Founded 2002</span><span>Focus on Excellence</span></div></div>
       </div>
     </section>
